@@ -73,4 +73,7 @@ document.getElementById('novotodo').onclick = function () {
   MinhaLista.add('Novo Todo');
 };
 
-MinhaLista.mostraUsuario();
+MinhaLista.mostraUsuario(); // CONST 
+//NÃO PODE TER SEU VALOR REATRIBUÍDO. É POSSÍVEL MUTAR UMA VARIÁVEL. MUTAR É TRABALHAR COM O MESMO TIPO MAS MUDANDO SEU VALOR.
+// VARIAVEIS DE ESCOPO
+// LET = ARMAZENA O ESCOPO DENTRO DE UMA FUNÇÃO
