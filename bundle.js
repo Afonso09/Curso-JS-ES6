@@ -77,3 +77,13 @@ MinhaLista.mostraUsuario(); // CONST
 //NÃO PODE TER SEU VALOR REATRIBUÍDO. É POSSÍVEL MUTAR UMA VARIÁVEL. MUTAR É TRABALHAR COM O MESMO TIPO MAS MUDANDO SEU VALOR.
 // VARIAVEIS DE ESCOPO
 // LET = ARMAZENA O ESCOPO DENTRO DE UMA FUNÇÃO
+// Valores padrão
+
+var soma = function soma() {
+  var a = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 3;
+  var b = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 6;
+  return a + b;
+};
+
+console.log(soma(1));
+console.log(soma());
